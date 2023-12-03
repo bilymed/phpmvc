@@ -1,0 +1,14 @@
+{
+    "name": "nabil/app",
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "psr/container": "^2.0"
+    },
+    "autoload": {
+        "optimize-autoloader": true,
+        "psr-4": {
+            "App\\": "app/",
+            "Lib\\": "lib/"
+        }
+    }
+}
